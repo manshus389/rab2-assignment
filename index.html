@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="side_bar">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()"> 
+            <div class="menu"></div>
+            <div class="menu"></div>
+            <div class="menu"></div>
+        </span>
+    </div>
+    <section class='login' id='login'>
+        <div class='head'>
+        <h1 class='company'> Sign In</h1>
+        </div>
+        <p class='msg'>Dont have an account? <a>Get Started!</a></p>
+        <div class='form'>
+          <form>
+        <input type="email" placeholder='Email Id' class='text' id='username' required><br>
+        <input type="password" placeholder='••••••••••••••' class='password'><br>
+        <a href="#" class='btn-login' id='do-login'>Login</a>
+</form>
+        </div>
+      </section>    
+    <script src="index.js"></script>
+</body>
+</html>
